@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int N=0;
+int lastans=0;
+struct sequences
+{ int sequence[100];
+ int top;};
+struct sequences ListSeq[100];
+void Query1( int x, int y)
+    {int seqno= ((~(x&lastans)&(~x&~lastans))  % N );
+    ListSeq[seqno].sequence[ ListSeq[seqno].top++]=y;
+    
+   }
+
+void Query2( int x, int y)
+    {
+   int seqno= ((~(x&lastans)&(~x&~lastans))  % N );
+    ListSeq[seqno].sequence[ ListSeq[seqno].top++]=y;
+    lastans=y%(ListSeq[seqno].top);
+    printf("%d",lastans);
+   }
+
+int main() {
+
+  scanf("%d",&N);
+int Q;
+ scanf("%d",&Q);
+   for(int i=0;i<Q;i++)
+        {
+int x,y,Qno;
+        scanf("%d",&Qno);
+        scanf("%d",&x);
+        scanf("%d",&y);
+       
+       if(Qno==1)
+       {Query1(x,y);
+        }
+else
+    Query2(x,y);
+    }
+    return 0;
+}
+192.168.0.104
+CC:AF:78:52:73:20
+
+7656468
+08095

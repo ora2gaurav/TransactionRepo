@@ -1,0 +1,142 @@
+SQL> select e1.first_name,e1.Employee_id ,NVL(e2.first_name,'NONE') manager,NVL(e2.employee_id,0) mid from employees e1,employees e2 where e1.manager_id=e2.employee_id(+);
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Sundita                      173 Gerald                      148                
+Elizabeth                    172 Gerald                      148                
+William                      171 Gerald                      148                
+Tayler                       170 Gerald                      148                
+Harrison                     169 Gerald                      148                
+Lisa                         168 Gerald                      148                
+Alexander                    103 Lex                         102                
+Amit                         167 Alberto                     147                
+Sundar                       166 Alberto                     147                
+David                        165 Alberto                     147                
+Mattea                       164 Alberto                     147                
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Danielle                     163 Alberto                     147                
+Clara                        162 Alberto                     147                
+Anthony                      187 Adam                        121                
+Julia                        186 Adam                        121                
+Alexis                       185 Adam                        121                
+Nandita                      184 Adam                        121                
+TJ                           132 Adam                        121                
+James                        131 Adam                        121                
+Mozhe                        130 Adam                        121                
+Laura                        129 Adam                        121                
+Luis                         113 Nancy                       108                
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Jose Manuel                  112 Nancy                       108                
+Ismael                       111 Nancy                       108                
+John                         110 Nancy                       108                
+Daniel                       109 Nancy                       108                
+Pat                          202 Michael                     201                
+William                      206 Shelley                     205                
+Diana                        107 Alexander                   103                
+Valli                        106 Alexander                   103                
+David                        105 Alexander                   103                
+Bruce                        104 Alexander                   103                
+Randall                      191 Payam                       122                
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Timothy                      190 Payam                       122                
+Jennifer                     189 Payam                       122                
+Kelly                        188 Payam                       122                
+Hazel                        136 Payam                       122                
+Ki                           135 Payam                       122                
+Michael                      134 Payam                       122                
+Jason                        133 Payam                       122                
+Michael                      201 Steven                      100                
+Eleni                        149 Steven                      100                
+Gerald                       148 Steven                      100                
+Alberto                      147 Steven                      100                
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Karen                        146 Steven                      100                
+John                         145 Steven                      100                
+Kevin                        124 Steven                      100                
+Shanta                       123 Steven                      100                
+Payam                        122 Steven                      100                
+Adam                         121 Steven                      100                
+Matthew                      120 Steven                      100                
+Den                          114 Steven                      100                
+Lex                          102 Steven                      100                
+Neena                        101 Steven                      100                
+Shelley                      205 Neena                       101                
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Hermann                      204 Neena                       101                
+Susan                        203 Neena                       101                
+Jennifer                     200 Neena                       101                
+Nancy                        108 Neena                       101                
+Douglas                      199 Kevin                       124                
+Donald                       198 Kevin                       124                
+Kevin                        197 Kevin                       124                
+Alana                        196 Kevin                       124                
+Peter                        144 Kevin                       124                
+Randall                      143 Kevin                       124                
+Curtis                       142 Kevin                       124                
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Trenna                       141 Kevin                       124                
+Sarath                       161 Karen                       146                
+Louise                       160 Karen                       146                
+Lindsey                      159 Karen                       146                
+Allan                        158 Karen                       146                
+Patrick                      157 Karen                       146                
+Janette                      156 Karen                       146                
+Karen                        119 Den                         114                
+Guy                          118 Den                         114                
+Sigal                        117 Den                         114                
+Shelli                       116 Den                         114                
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Alexander                    115 Den                         114                
+Oliver                       155 John                        145                
+Nanette                      154 John                        145                
+Christopher                  153 John                        145                
+Peter                        152 John                        145                
+David                        151 John                        145                
+Peter                        150 John                        145                
+Vance                        195 Shanta                      123                
+Samuel                       194 Shanta                      123                
+Britney                      193 Shanta                      123                
+Sarah                        192 Shanta                      123                
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Joshua                       140 Shanta                      123                
+John                         139 Shanta                      123                
+Stephen                      138 Shanta                      123                
+Renske                       137 Shanta                      123                
+Girard                       183 Matthew                     120                
+Martha                       182 Matthew                     120                
+Jean                         181 Matthew                     120                
+Winston                      180 Matthew                     120                
+Steven                       128 Matthew                     120                
+James                        127 Matthew                     120                
+Irene                        126 Matthew                     120                
+
+FIRST_NAME           EMPLOYEE_ID MANAGER                     MID                
+-------------------- ----------- -------------------- ----------                
+Julia                        125 Matthew                     120                
+Charles                      179 Eleni                       149                
+Kimberely                    178 Eleni                       149                
+Jack                         177 Eleni                       149                
+Jonathon                     176 Eleni                       149                
+Alyssa                       175 Eleni                       149                
+Ellen                        174 Eleni                       149                
+Steven                       100 NONE                          0                
+
+107 rows selected.
+
+SQL> spool off;

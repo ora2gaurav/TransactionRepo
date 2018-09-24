@@ -1,0 +1,67 @@
+Create a unbalanced binary search tree and find the distance between 2 nodes 
+Ans : ______https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/
+
+Isme LCA ( lowest common ancestor ) wala main part hai .
+
+2. Without using any extra variable array or space do following:
+Given string or char array
+ INPUT : AAABBDDCC
+Output shiuld be A3B2D2C2
+
+3. Print even odd using two threads
+______https://stackoverflow.com/questions/16689449/printing-even-and-odd-using-two-threads-in-java
+
+Q1: Rest Api design principle
+______https://restfulapi.net/rest-architectural-constraints/
+
+Q2: Diff between soap and rest
+Main diff is security
+
+Q3: spring security using oauth2
+______https://dzone.com/articles/secure-spring-rest-with-spring-security-and-oauth2
+
+Q4: change the string before asking the question.... 
+Write a function to count the word 'agoda' in a string 
+
+input:"adfasdAGodaafsdfaAGODA" return:2
+input.toLowerCase();
+
+int index = 0;
+int count = 0;
+
+While(index = s.subString("agoda", index) != -1){
+index ++;
+count++;
+
+}
+
+
+
+Q5: g1gc working
+
+Parallel gc , serial gc, eden space , surviour space etc.
+
+Q6: kadane algorithm ... Qns below link ______https://www.google.co.in/amp/s/www.geeksforgeeks.org/largest-sum-contiguous-subarray/amp/
+
+Q7______:https://www.geeksforgeeks.org/minimum-swaps-required-bring-elements-less-equal-k-together/
+
+Q8: Hibernate jpa me to ... Caching and transactions pooch sakte ho
+
+Q9: SOLID principles
+
+Q10 : NoSql data base trypes and examples 
+Types of NoSQL databases-
+There are 4 basic types of NoSQL databases:
+Key-Value Store – It has a Big Hash Table of keys & values {Example- Riak, Amazon S3 (Dynamo)} 
+Document-based Store- It stores documents made up of tagged elements. {Example- CouchDB} 
+Column-based Store- Each storage block contains data from only one column, {Example- HBase, Cassandra} 
+Graph-based-A network database that uses edges and nodes to represent and store data. {Example- Neo4J}
+
+
+Q11 : ACID and CAP theorem
+
+Q12: what is sharding and how zero down time is achieved in distributed environment.
+
+Q13: Basic computer science qns ( architect level qns) :
+Different types of consistency
+______https://en.m.wikipedia.org/wiki/Consistency_model 

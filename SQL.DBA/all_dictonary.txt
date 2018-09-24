@@ -1,0 +1,58 @@
+SQL> select * from dictonary;
+select * from dictonary
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+SQL> select * from v$dictonary;
+select * from v$dictonary
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+SQL> desc dictonary;
+ERROR:
+ORA-04043: object dictonary does not exist 
+
+
+SQL> startup
+ORA-01081: cannot start already-running ORACLE - shut it down first
+SQL> desc v$dict;
+ERROR:
+ORA-04043: object v$dict does not exist 
+
+
+SQL> desc v$dictonary;
+ERROR:
+ORA-04043: object v$dictonary does not exist 
+
+
+SQL> desc dd;
+ERROR:
+ORA-04043: object dd does not exist 
+
+
+SQL> select * from dictonary;
+select * from dictonary
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+SQL> select * from dictanary;
+select * from dictanary
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+SQL> select * from dictnary;
+select * from dictnary
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+SQL> spool off;

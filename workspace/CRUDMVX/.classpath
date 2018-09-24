@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/remoting.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/web.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/misc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/j2ee.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/core.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/ibatis.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/javaconfig.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/aop.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/test.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/persistJDO.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/persistJdbc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/gaurav/Downloads/Compressed/springjars/remoting/remoting/persistCore.zip"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
